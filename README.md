@@ -28,7 +28,7 @@ install.packages("reshape2") /  library("reshape2")
 # Steps to work on the project
 The whole constructure is focused on realizing the five objectives mentioned in the Course Project, which will be executed in four steps.
 ## Step1: Extracts only the measurements on the mean and standard deviation for each measurement(objective 2)
-1, Read all test/train .txt files and save them into dataframes separately by `read.table`
+1, Read all *`test/train .txt`* files and save them into dataframes separately by `read.table`
 
 2, Extracts only the measurements on the mean and standard deviation of X_test/train by `grepl` and column subsetting functions
 ## Step2: Name the activities in the data set by look up in *`activity_labels.txt`*(objective 3)
