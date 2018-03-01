@@ -30,7 +30,7 @@ The whole constructure is focused on realizing the five objectives mentioned in 
 ## Step1: Extracts only the measurements on the mean and standard deviation for each measurement(objective 2)
 1, Read all *`test/train .txt`* files and save them into dataframes separately by `read.table`
 
-2, Extracts only the measurements on the mean and standard deviation of X_test/train by `grepl` and column subsetting functions
+2, Extracts only the measurements on the mean and standard deviation of X_test/train by `grepl()` and column subsetting functions
 ## Step2: Name the activities in the data set by look up in *`activity_labels.txt`*(objective 3)
 ## Step3: Appropriately labels the data set with descriptive activity name, and merges the training and the test sets to create one data set and (objectives 4&1)
 1, Name column names for test group which can be applied to the train group later on by `names()`
