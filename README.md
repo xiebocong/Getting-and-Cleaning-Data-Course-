@@ -17,12 +17,13 @@ You should create one R script called run_analysis.R that does the following.
 
 # Prerequisites
 You have to set your work directory for further data reading, install and load "data.table" and "reshape2" packages
+```
+setwd("/Users/dalinzhu/JanuaryR/Mycoursera")
 
-`setwd("/Users/dalinzhu/JanuaryR/Mycoursera")`
+install.packages("data.table") /  library("data.table")
 
-`install.packages("data.table") /  library("data.table")`
-
-`install.packages("reshape2") /  library("reshape2")`
+install.packages("reshape2") /  library("reshape2")
+```
 
 # Steps to work on the project
 The whole constructure is focused on realizing the five criterias mentioned in the Course Project objectives, which will be splited by five steps.
@@ -30,4 +31,4 @@ The whole constructure is focused on realizing the five criterias mentioned in t
 1, Read all test/train .txt files and save them into dataframes separately by `read.table`
 
 2, Extracts only the measurements on the mean and standard deviation of X_test/train by `grepl` and column subsetting functions
-## Step2: Name the activities in the data set by > activity_labels.txt
+## Step2: Name the activities in the data set by  *`activity_labels.txt`*
