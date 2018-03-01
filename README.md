@@ -2,7 +2,7 @@
 Week 4 project
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-# Course Project Objectives
+# Course Project
 You should create one R script called run_analysis.R that does the following.
 
 1, Merges the training and the test sets to create one data set.
@@ -26,7 +26,7 @@ install.packages("reshape2") /  library("reshape2")
 ```
 
 # Steps to work on the project
-The whole constructure is focused on realizing the five criterias mentioned in the Course Project objectives, which will be splited by four steps.
+The whole constructure is focused on realizing the five objectives mentioned in the Course Project, which will be executed in four steps.
 ## Step1: Extracts only the measurements on the mean and standard deviation for each measurement(objective 2)
 1, Read all test/train .txt files and save them into dataframes separately by `read.table`
 
